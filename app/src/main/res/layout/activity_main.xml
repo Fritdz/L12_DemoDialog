@@ -14,8 +14,8 @@
         android:text="@string/d1" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
@@ -25,10 +25,82 @@
             android:text="@string/d2" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/tvDemo2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDemo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/d3" />
+
+        <TextView
+            android:id="@+id/tvDemo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonEx3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex3" />
+
+        <TextView
+            android:id="@+id/tvEx3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDemo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/d4" />
+
+        <TextView
+            android:id="@+id/tvDemo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDemo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/d5" />
+
+        <TextView
+            android:id="@+id/tvDemo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="TextView" />
     </LinearLayout>
 
